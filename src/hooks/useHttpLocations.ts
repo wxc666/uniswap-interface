@@ -5,6 +5,9 @@ import uriToHttp from '../utils/uriToHttp'
 import useENSContentHash from './useENSContentHash'
 
 export default function useHttpLocations(uri: string | undefined): string[] {
+  if(uri?.indexOf("/tokens/")===0){
+    uri = `${window.location.origin}`+uri
+  }
   const ens = useMemo(() => (uri ? parseENSAddress(uri) : undefined), [uri])
   const resolvedContentHash = useENSContentHash(ens?.ensName)
   return useMemo(() => {

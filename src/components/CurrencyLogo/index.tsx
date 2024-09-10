@@ -10,7 +10,7 @@ import Logo from '../Logo'
 const getTokenLogoURL = (address: string) => {
   console.log('getTokenLogoURL', address)
   //`https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`
-  return `https://raw.githubusercontent.com/wxc666/uniswap/main/assets/img/w.png`
+  return `/tokens/coin.png`
 }
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
@@ -34,14 +34,15 @@ export default function CurrencyLogo({
   size?: string
   style?: React.CSSProperties
 }) {
-  const uriLocations = useHttpLocations(currency instanceof WrappedTokenInfo ? currency.logoURI : undefined)
 
+  const uriLocations = useHttpLocations(currency instanceof WrappedTokenInfo ? currency.logoURI : undefined)
   const srcs: string[] = useMemo(() => {
     if (currency === ETHER) return []
-
     if (currency instanceof Token) {
       if (currency instanceof WrappedTokenInfo) {
-        return [...uriLocations, getTokenLogoURL(currency.address)]
+        const a =  [...uriLocations, getTokenLogoURL(currency.address)]
+        //console.log("uriLocations",currency,a)
+        return a;
       }
 
       return [getTokenLogoURL(currency.address)]

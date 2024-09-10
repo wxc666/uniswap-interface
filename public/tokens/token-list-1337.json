@@ -1,0 +1,52 @@
+{
+	"name": "1337 Token List",
+	"logoURI": "/tokens/token.png",
+	"keywords": [
+		"testnet"
+	],
+	"tags": {},
+	"timestamp": "2024-09-06T20:00:00+00:00",
+	"tokens": [
+		{
+			"chainId": 1337,
+			"address": "0xcE5E080291fA49d6b0D99220bd9F0f4b2308cC71",
+			"symbol": "AAA",
+			"name": "AAA",
+			"decimals": 18,
+			"logoURI": "/tokens/a.png",
+			"tags": []
+		},
+		{
+			"chainId": 1337,
+			"address": "0x32B0dC3E0443741b0C63c270566a49603e6fe501",
+			"symbol": "BBB",
+			"name": "BBB",
+			"decimals": 18,
+			"logoURI": "/tokens/b.png",
+			"tags": []
+		},
+		{
+			"chainId": 1337,
+			"address": "0xd03E4647E3bfD2C39CDD0D1B925230E5Da4A4af2",
+			"symbol": "CCC",
+			"name": "CCC",
+			"decimals": 18,
+			"logoURI": "/tokens/c.png",
+			"tags": []
+		},
+		{
+			"chainId": 1337,
+			"address": "0x2ef1ff8c01e885097c619a88aaB64A8DfB34a344",
+			"symbol": "DDD",
+			"name": "DDD",
+			"decimals": 18,
+			"logoURI": "/tokens/d.png",
+			"tags": []
+		}
+	],
+	"version": {
+		"major": 1,
+		"minor": 0,
+		"patch": 4
+	}
+}

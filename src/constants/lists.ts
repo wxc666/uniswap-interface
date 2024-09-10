@@ -1,10 +1,11 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/wxc666/uniswap-assets/main/assets/token-list-43113.json'
+//export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/wxc666/uniswap-assets/main/assets/token-list-43113.json'
+export const DEFAULT_TOKEN_LIST_URL = `${window.location.origin}/tokens/token-list-43113.json`
 //tokens.uniswap.eth
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
   DEFAULT_TOKEN_LIST_URL,
-  'https://raw.githubusercontent.com/wxc666/uniswap-assets/main/assets/token-list-1337.json'
+  `${window.location.origin}/tokens/token-list-1337.json`
 ]
 /*  't2crtokens.eth', // kleros
   'tokens.1inch.eth', // 1inch

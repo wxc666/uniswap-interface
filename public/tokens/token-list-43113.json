@@ -1,0 +1,43 @@
+{
+	"name": "43113 Token List",
+	"logoURI": "/tokens/token.png",
+	"keywords": [
+		"testnet"
+	],
+	"tags": {},
+	"timestamp": "2024-09-06T20:00:00+00:00",
+	"tokens": [
+		{
+			"chainId": 43113,
+			"address": "0x14275853345ca104fa1333050cc43c0dcb9fa7c8",
+			"symbol": "AAA",
+			"name": "AAA",
+			"decimals": 18,
+			"logoURI": "/tokens/a.png",
+			"tags": []
+		},
+		{
+			"chainId": 43113,
+			"address": "0x654f9d6eab28c708af892943a8144155ca166230",
+			"symbol": "BBB",
+			"name": "BBB",
+			"decimals": 18,
+			"logoURI": "/tokens/b.png",
+			"tags": []
+		},
+		{
+			"chainId": 43113,
+			"address": "0xd0d53b364865d795493983ab6166235a7e30e3a9",
+			"symbol": "CCC",
+			"name": "CCC",
+			"decimals": 18,
+			"logoURI": "/tokens/c.png",
+			"tags": []
+		}
+	],
+	"version": {
+		"major": 1,
+		"minor": 0,
+		"patch": 5
+	}
+}
